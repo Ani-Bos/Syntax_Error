@@ -4,11 +4,13 @@ import Home from "./pages/Home/Home";
 import Signup from "./pages/Login/Signup"
 import Login from "./pages/Login/Login"
 import Password from "./pages/Login/Password";
+import SideNav from "./components/SideNavbar/SideNavbar";
 function App() {
   //  return <Home />;
+  return <SideNav/>
   // return <Signup />;
   //  return <Login />;
-   return <Password/>;
+  //  return <Password/>;
   // <Router>
   //   <Routes>
   //     <Route exact path="/" element={<Home/>} />
